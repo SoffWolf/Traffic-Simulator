@@ -1,0 +1,878 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<tagfile>
+  <compound kind="file">
+    <name>building.cpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>building_8cpp</filename>
+    <includes id="building_8hpp" name="building.hpp" local="yes" imported="no">building.hpp</includes>
+  </compound>
+  <compound kind="file">
+    <name>building.hpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>building_8hpp</filename>
+    <includes id="person_8hpp" name="person.hpp" local="yes" imported="no">person.hpp</includes>
+    <includes id="vehicle_8hpp" name="vehicle.hpp" local="yes" imported="no">vehicle.hpp</includes>
+    <class kind="struct">buildingAddress</class>
+    <class kind="class">Building</class>
+    <member kind="enumeration">
+      <type></type>
+      <name>buildingType</name>
+      <anchorfile>building_8hpp.html</anchorfile>
+      <anchor>a390e402fada59d5f6ce9acfef90eb983</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>NO_OBJECT</name>
+      <anchorfile>building_8hpp.html</anchorfile>
+      <anchor>a390e402fada59d5f6ce9acfef90eb983ab2f10497589253898a942d64cd1a5f5e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RESIDENTIAL</name>
+      <anchorfile>building_8hpp.html</anchorfile>
+      <anchor>a390e402fada59d5f6ce9acfef90eb983a593e1abf48b4225da729fcd6d62c3d3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>COMMERCIAL</name>
+      <anchorfile>building_8hpp.html</anchorfile>
+      <anchor>a390e402fada59d5f6ce9acfef90eb983a3dcf48d1f821403aa78e7d7d34893a05</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>INDUSTRIAL</name>
+      <anchorfile>building_8hpp.html</anchorfile>
+      <anchor>a390e402fada59d5f6ce9acfef90eb983a406f3375508845ce68a9f7660ec707f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>MISC</name>
+      <anchorfile>building_8hpp.html</anchorfile>
+      <anchor>a390e402fada59d5f6ce9acfef90eb983ac598b9c49caca3da6b36b030315b7ce9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>bus.cpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>bus_8cpp</filename>
+    <includes id="bus_8hpp" name="bus.hpp" local="yes" imported="no">bus.hpp</includes>
+  </compound>
+  <compound kind="file">
+    <name>bus.hpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>bus_8hpp</filename>
+    <includes id="vehicle_8hpp" name="vehicle.hpp" local="yes" imported="no">vehicle.hpp</includes>
+    <class kind="class">Bus</class>
+  </compound>
+  <compound kind="file">
+    <name>car.cpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>car_8cpp</filename>
+    <includes id="car_8hpp" name="car.hpp" local="yes" imported="no">car.hpp</includes>
+  </compound>
+  <compound kind="file">
+    <name>car.hpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>car_8hpp</filename>
+    <includes id="vehicle_8hpp" name="vehicle.hpp" local="yes" imported="no">vehicle.hpp</includes>
+    <class kind="class">Car</class>
+  </compound>
+  <compound kind="file">
+    <name>passenger.cpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>passenger_8cpp</filename>
+    <includes id="person_8hpp" name="person.hpp" local="yes" imported="no">person.hpp</includes>
+    <includes id="passenger_8hpp" name="passenger.hpp" local="yes" imported="no">passenger.hpp</includes>
+  </compound>
+  <compound kind="file">
+    <name>passenger.hpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>passenger_8hpp</filename>
+    <includes id="person_8hpp" name="person.hpp" local="yes" imported="no">person.hpp</includes>
+    <class kind="class">Passenger</class>
+  </compound>
+  <compound kind="file">
+    <name>person.cpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>person_8cpp</filename>
+    <includes id="person_8hpp" name="person.hpp" local="yes" imported="no">person.hpp</includes>
+  </compound>
+  <compound kind="file">
+    <name>person.hpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>person_8hpp</filename>
+    <includes id="vehicle_8hpp" name="vehicle.hpp" local="yes" imported="no">vehicle.hpp</includes>
+    <class kind="struct">Timeshift</class>
+    <class kind="class">Person</class>
+    <member kind="typedef">
+      <type>std::string</type>
+      <name>Map</name>
+      <anchorfile>person_8hpp.html</anchorfile>
+      <anchor>aafe083bd2dd1c019eadb5a418cae063d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>DrivingHabit</name>
+      <anchorfile>person_8hpp.html</anchorfile>
+      <anchor>a9ef114085d78e428ce1348e0100c2b0b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SLOW</name>
+      <anchorfile>person_8hpp.html</anchorfile>
+      <anchor>a9ef114085d78e428ce1348e0100c2b0bab27edad9d3e126dc8448b6030438adb6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>NORMAL</name>
+      <anchorfile>person_8hpp.html</anchorfile>
+      <anchor>a9ef114085d78e428ce1348e0100c2b0ba50d1448013c6f17125caee18aa418af7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>AGGRESSIVE</name>
+      <anchorfile>person_8hpp.html</anchorfile>
+      <anchor>a9ef114085d78e428ce1348e0100c2b0ba128db069f37b5cd1b44901dff4db4ae0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>vehicle.cpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>vehicle_8cpp</filename>
+    <includes id="vehicle_8hpp" name="vehicle.hpp" local="yes" imported="no">vehicle.hpp</includes>
+  </compound>
+  <compound kind="file">
+    <name>vehicle.hpp</name>
+    <path>/u/34/gadallm1/unix/aalto/courses/cpp/cpp-s2020/traffic-sim-2020-1/src/</path>
+    <filename>vehicle_8hpp</filename>
+    <class kind="class">Vehicle</class>
+    <member kind="enumeration">
+      <type></type>
+      <name>vehicleType</name>
+      <anchorfile>vehicle_8hpp.html</anchorfile>
+      <anchor>aecc8f363437678911884b8b27af8dbce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>NO_OBJECT</name>
+      <anchorfile>vehicle_8hpp.html</anchorfile>
+      <anchor>aecc8f363437678911884b8b27af8dbceab2f10497589253898a942d64cd1a5f5e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CAR</name>
+      <anchorfile>vehicle_8hpp.html</anchorfile>
+      <anchor>aecc8f363437678911884b8b27af8dbcea5fc54ebcb1dd4bf1e1b93cbc77b57b40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>BUS</name>
+      <anchorfile>vehicle_8hpp.html</anchorfile>
+      <anchor>aecc8f363437678911884b8b27af8dbcea885a6a40e3fde5dfec3db7fefea61f9b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Building</name>
+    <filename>classBuilding.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>Building</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>ad7e308f74a201c6d4baecd9797ac43c3</anchor>
+      <arglist>(std::string name, buildingAddress address, buildingType type=NO_OBJECT, int nLevel=1)</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::string &amp;</type>
+      <name>getName</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>aef436e6e20d1dbf2eb78b089ca9d0794</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const buildingAddress &amp;</type>
+      <name>getAddress</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>ae7453eadc131398a6f9f90ba9527726c</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const buildingType &amp;</type>
+      <name>getType</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>a77d45c52807b704a981f64001390a123</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const int &amp;</type>
+      <name>getNlevel</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>a9f4d41a11b50e366b6f9322060c68c69</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const int &amp;</type>
+      <name>getNperson</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>acb88d3e47a307e2d0b8d41007220468c</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const int &amp;</type>
+      <name>getNcar</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>aeace457d005505fdc94f79efc83ec142</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const vector&lt; Person * &gt; &amp;</type>
+      <name>getPeople</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>a31df240b356783235042eacf3af56b8c</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const vector&lt; Car * &gt; &amp;</type>
+      <name>getCars</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>ae38a4be8ede183fa4107696cb72f8bf9</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const int &amp;</type>
+      <name>getEntrance</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>a8a48ff03fb649e5dcd403134c999ce1b</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setType</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>ac1ce56df0476893ee39cabedb73ad450</anchor>
+      <arglist>(buildingType type)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setNlevel</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>abd6ec92a0c9e2f6f8c79c553ec37701f</anchor>
+      <arglist>(int nLevel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>accommodate</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>a4e5be630e78fafc4967aab341bf1a29c</anchor>
+      <arglist>(Person *p)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>evict</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>a5a102cfff9b5296599fe249f3f8e8433</anchor>
+      <arglist>(std::string name)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>evictAll</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>a1e9815276e2a80a773360f37eecd3f39</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>addCarToGarage</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>aad6a2de0270ad55fe3453357854ac320</anchor>
+      <arglist>(Car *v)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>removeCarFromGarage</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>a6b46421f5e19ec0ee340bdf316e49b05</anchor>
+      <arglist>(std::string model)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>removeAllCarsFromGarage</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>acc6a21ec065c143ad3b5d1e58d910bc2</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Building</name>
+      <anchorfile>classBuilding.html</anchorfile>
+      <anchor>ac93e98a8ae657a4588c9a2a887087705</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>buildingAddress</name>
+    <filename>structbuildingAddress.html</filename>
+    <member kind="variable">
+      <type>int</type>
+      <name>number</name>
+      <anchorfile>structbuildingAddress.html</anchorfile>
+      <anchor>a7106e2abc437ad981830d14176d15f09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>roadName</name>
+      <anchorfile>structbuildingAddress.html</anchorfile>
+      <anchor>a57432550ee39c2077f9c822dcd78a299</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Bus</name>
+    <filename>classBus.html</filename>
+    <base>Vehicle</base>
+    <member kind="function">
+      <type></type>
+      <name>Bus</name>
+      <anchorfile>classBus.html</anchorfile>
+      <anchor>aa2f0df28292da7d7ac72ac168e4b9c1a</anchor>
+      <arglist>(vector&lt; Road * &gt; route, int damage=0, int speed=10, int maxSpeed=20)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>drive</name>
+      <anchorfile>classBus.html</anchorfile>
+      <anchor>a928e32686c7e00c1ecde24c3da3019f7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>vector&lt; Road * &gt;</type>
+      <name>determineRoute</name>
+      <anchorfile>classBus.html</anchorfile>
+      <anchor>ac0935a9ff5650c6f7f7394cf713faab1</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Car</name>
+    <filename>classCar.html</filename>
+    <base>Vehicle</base>
+    <member kind="function">
+      <type></type>
+      <name>Car</name>
+      <anchorfile>classCar.html</anchorfile>
+      <anchor>a7831c493a51df64ba8ebe448d7a256fb</anchor>
+      <arglist>(std::string model, int damage=0, int speed=17, int maxSpeed=30)</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::string &amp;</type>
+      <name>getModel</name>
+      <anchorfile>classCar.html</anchorfile>
+      <anchor>a59d3927e8b9880b6468c88e7cc73cb1c</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>drive</name>
+      <anchorfile>classCar.html</anchorfile>
+      <anchor>a928e32686c7e00c1ecde24c3da3019f7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>vector&lt; Road * &gt;</type>
+      <name>determineRoute</name>
+      <anchorfile>classCar.html</anchorfile>
+      <anchor>a12c8a3ec8421c26164037dcf171823d2</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Passenger</name>
+    <filename>classPassenger.html</filename>
+    <base>Person</base>
+    <member kind="function">
+      <type></type>
+      <name>Passenger</name>
+      <anchorfile>classPassenger.html</anchorfile>
+      <anchor>aec2f949c9af635005e0f9c5d94202e13</anchor>
+      <arglist>(const std::string &amp;name, int age, Map source, Map destination, vehicleType type, int license_number, DrivingHabit driving_habit)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getLicenseNumber</name>
+      <anchorfile>classPassenger.html</anchorfile>
+      <anchor>a4fe10397f3e2147ec2962820404a2e41</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>DrivingHabit</type>
+      <name>getDrivingHabit</name>
+      <anchorfile>classPassenger.html</anchorfile>
+      <anchor>ac6a192993fb7a79af20f816d2bdb9fec</anchor>
+      <arglist>() const </arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Person</name>
+    <filename>classPerson.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>Person</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a2b57e994f9315eed8c768fa5c603abcb</anchor>
+      <arglist>(const std::string &amp;name, int age, Map source, Map destination, vehicleType type=NO_OBJECT)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setCurrentSpeed</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>ad68076128a618889e73aa0c7b961f7db</anchor>
+      <arglist>(double speed)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setNewSource</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>ac50ffae0fb934df9ffc1b6057c570b86</anchor>
+      <arglist>(Map source)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setNewDestination</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a6519ead1e4e5bf096a305f3c7c9ed004</anchor>
+      <arglist>(Map destination)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setWorkShift</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a0bae6033357950ea0b52a69267ecd4c9</anchor>
+      <arglist>(time_t a, time_t b)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setGymSchedule</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a598bc23b83fadfa9c53a737fa1aeb8fc</anchor>
+      <arglist>(time_t a, time_t b)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setEatOutTime</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a86df553e7a79ae601db9089112423ac4</anchor>
+      <arglist>(time_t a, time_t b)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setShoppingTime</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a3581a0e92ff2e0812d0a9008ade402cd</anchor>
+      <arglist>(time_t a, time_t b)</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::string &amp;</type>
+      <name>getName</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>aef436e6e20d1dbf2eb78b089ca9d0794</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getAge</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a3c04e615a5a30208ea6140e58c53709e</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const Map &amp;</type>
+      <name>getSource</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>ad4939ab9dfdfc9036221ca5d53175522</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const Map &amp;</type>
+      <name>getDestination</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a66f28bdd2a6d6cb557bca4c97a6aa919</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const vehicleType &amp;</type>
+      <name>getVehicleType</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a448d0dc95eb52a3ef4696818e83a26f0</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getCurrentSpeed</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a78a9070b67222b54c3ec231844666ae3</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const Map &amp;</type>
+      <name>getCurrentLocation</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a6c43ab9f61c34ce67db5dcfa495105bf</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>Timeshift</type>
+      <name>getWorkshift</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a2953d9755a2631a552a38b6523bf79e3</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>Timeshift</type>
+      <name>getGymSchedule</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a8f7169cd65a040cb60a8cbf010c8caad</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>Timeshift</type>
+      <name>getMealTime</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>aa409a3b51a321fe1d618ba2035cb6445</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>Timeshift</type>
+      <name>getShoppingTime</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a83f936b9acd0a7db5f18bf1055a9cb5b</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::string</type>
+      <name>name_</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a4d739cc5d335052eb9f5b2ca559b81d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>age_</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a63db065361eb3bdd88f1fdc34fc19569</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Map</type>
+      <name>source_</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a6463bc595c2966b583a14265367b7719</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Map</type>
+      <name>destination_</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>aa94f117c15617ca2b6ea7453f3a0f3d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>vehicleType</type>
+      <name>vehicle_</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a9c47ad66aa32dc71aa3860c6f7ba4574</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>double</type>
+      <name>currentSpeed_</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a71e6cbcb555904689bddab78ecf13f3d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Map</type>
+      <name>currentLocation_</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>aaf6867fa6baa8352e96cf1794d7e4152</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Timeshift</type>
+      <name>work_shift_</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>acf139995b83659aaaf5af1f52bc0d2c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Timeshift</type>
+      <name>gym_schedule_</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a6dbce5b1b4cfb5ce908ff9c926d301d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Timeshift</type>
+      <name>eat_out_time_</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>a63b6b26d03f632c6cadeb713c66eeff0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Timeshift</type>
+      <name>shopping_time_</name>
+      <anchorfile>classPerson.html</anchorfile>
+      <anchor>aaeffde92c8222c1f45e40b59d2de37be</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>Timeshift</name>
+    <filename>structTimeshift.html</filename>
+    <member kind="variable">
+      <type>time_t</type>
+      <name>start</name>
+      <anchorfile>structTimeshift.html</anchorfile>
+      <anchor>ada310e7f72b38fadd4b24d80ed3438ee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>time_t</type>
+      <name>end</name>
+      <anchorfile>structTimeshift.html</anchorfile>
+      <anchor>a13455ba845bf5d4dba37be491bc6a036</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Vehicle</name>
+    <filename>classVehicle.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>Vehicle</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a9c7d590df2e27d0fbff60767d6737e93</anchor>
+      <arglist>(vehicleType type=NO_OBJECT, int damage=0, int speed=12)</arglist>
+    </member>
+    <member kind="function">
+      <type>const int &amp;</type>
+      <name>getDamage</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a1a30b302fe4110b6d242690c16e4c8d8</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const vehicleType &amp;</type>
+      <name>getVehicleType</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a448d0dc95eb52a3ef4696818e83a26f0</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const int &amp;</type>
+      <name>getId</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a66c351fc37a004a6f868811c0c5bd296</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; int &gt;</type>
+      <name>getCoordinate</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a8f1c9df184da346bd1d709f8af5d3f57</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const int &amp;</type>
+      <name>getCurrentNodeId</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>ad9ffc51a7e2aff7b5bb717649c4d6ebb</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const int &amp;</type>
+      <name>getMaxCapacity</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>ac3a2bdfa65b2d9be4f9dcd70fcc91481</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const vector&lt; Passenger * &gt; &amp;</type>
+      <name>getPassengers</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a2f58cc74520894edcc5586888cd997ef</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>Building *const &amp;</type>
+      <name>getDestination</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a81ea5acf0688329fa8a8fa1859e43a1f</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>Road *const &amp;</type>
+      <name>getCurrentRoad</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a4724648e1ccc02b0d886b5983f1fe1f6</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const vector&lt; Road * &gt; &amp;</type>
+      <name>getRoute</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a5c5a9e6f090d6721849a506ccffa4230</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const int &amp;</type>
+      <name>getCurrentSpeed</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a2c25fcdf1991682cffe09ecc1b646d9d</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const int &amp;</type>
+      <name>getMaxSpeed</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>aae45dd7a4c9ff3e9a4e9c9da1645e4f2</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setCoordinate</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a4dfbcc2275004c15730b52ae6bdf6a6c</anchor>
+      <arglist>(int crdX, int crdY)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setRoute</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a476fba4e590f419eeb261023370e2e3f</anchor>
+      <arglist>(vector&lt; Road &gt; route)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>accommodate</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a98398e77478bc692d3664f8e325adec4</anchor>
+      <arglist>(Passenger *p)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>evict</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>af8d9bb91864add74e1597aae83915159</anchor>
+      <arglist>(const std::string passengerName)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>evictAll</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a1e9815276e2a80a773360f37eecd3f39</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>drive</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a62cfc35e9f8898e55652d7a6daa81553</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Vehicle</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a7dbc09bb3cfa4915090c7c98066663c1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>std::vector&lt; int &gt;</type>
+      <name>coordinate_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a341978d0c109aab3d9c9f2abc8335e56</anchor>
+      <arglist>(2)</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>vehicleType</type>
+      <name>type_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a4e3de35f6bb24ad9176b1741cad0a322</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>damage_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a60163d4fae345170a36ed6d952ec41c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>id_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>aafd0c2f55b73e7a1d4bd1174fdebbcf8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>currentNodeId_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>a2fd745038b797e7b6b1a8d9f3e557235</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>maxCapacity_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>aa491f629a1380a2c8bc0278400c644bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>vector&lt; Passenger * &gt;</type>
+      <name>passengers_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>ae7acac178df350edf1cd4046d91063e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Building *</type>
+      <name>destination_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>ab32ee15c26b0fa93aef9e230acd80a34</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Road *</type>
+      <name>currentRoad_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>af0c8e6c661b443d2a17dcd978feb81dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>vector&lt; Road * &gt;</type>
+      <name>route_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>af2923e2dc27aac16045d8e7c1e6f7520</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>currentSpeed_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>aa6d891b85010b73c4283fc87761425cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>maxSpeed_</name>
+      <anchorfile>classVehicle.html</anchorfile>
+      <anchor>af2e6681fcc4e2af27129749b5df4a6f7</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+</tagfile>

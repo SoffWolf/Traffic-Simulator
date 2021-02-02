@@ -1,0 +1,14 @@
+g++ -c building.cpp car.cpp person.cpp trafficLight.cpp vehicle.cpp main.cpp
+
+g++ building.o car.o person.o trafficLight.o vehicle.o main.o -o app
+
+./app
+
+
+OR
+
+g++ -Wall -Wextra -g building.cpp car.cpp person.cpp trafficLight.cpp vehicle.cpp main.cpp import_xml_map/import_map.cpp import_xml_map/pugixml-1.10/src/pugixml.cpp -o app
+
+./app
+
+OR MakeFile

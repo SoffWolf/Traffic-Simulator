@@ -1,0 +1,31 @@
+The new map:
+-100 longtitude and 100 latitude: 10000 pixels
+-Have 4 main components:
+  //act like a grid with area, not coordinate
+  +<node id="123456"  lon="45"  lat="20">
+00001   10000
+  //the nodes will be on a same line and follow order from start to end
+  +<way id=""  name="">
+    <lane1>
+      <nd ref="node_id">
+      <nd ref="">
+      <nd ref="">
+    <lane2>
+  //the nodes is the grids the building is on
+  +<building id=""  name="" type="industrial/residental">
+    <nd ref="node_id">
+    <nd ref="">
+    <nd ref="">
+
+  +<intersection id=""  traffic_light="true">
+    <nd ref="">
+    <way id=""  name="">
+    <way id=""  name="">
+
+
+-The position of the car will be its current grid. When a car on a intersection grid, it will choose which way to turn by consider the 4 possibilities, while only 2(go ahead or turn back) if on the normal road.
+  +car need a is_on_the_road(current_grid) function to predict its path
+  +if is_on_intersection(current_grid) == true
+  +if next_grid_empty(next_grid) == true
+    if the car go on the same direction->false
+    if the car on the opposite direction->true

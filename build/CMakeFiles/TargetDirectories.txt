@@ -1,0 +1,3 @@
+/home/soft_wolf/traffic-sim-2020-1/build/CMakeFiles/rebuild_cache.dir
+/home/soft_wolf/traffic-sim-2020-1/build/CMakeFiles/edit_cache.dir
+/home/soft_wolf/traffic-sim-2020-1/build/CMakeFiles/TrafficSim.dir
