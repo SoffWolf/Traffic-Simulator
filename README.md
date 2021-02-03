@@ -9,4 +9,6 @@ The car and pedestrain navigate from the starting point to the destination using
 
 For more detail read the documentation: https://docs.google.com/document/d/1-DKgzNFHMP9c-G3yBtJF9jeh5upZ_mUxjd-pqg5ba1s/edit?usp=sharing
 
+Demo video: https://youtu.be/aYBN_SPCFEc
+
 
