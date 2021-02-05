@@ -12,3 +12,15 @@ For more detail read the documentation: https://docs.google.com/document/d/1-DKg
 Demo video: https://youtu.be/aYBN_SPCFEc
 
 
+# Dependency
+* `SFML` 
+* `pugixml-1.10`
+# Folder Structure
+ * `plan/` -- Project plan 
+ * `doc/`  -- The documentation sources related to the project
+ * `src/`  -- Source files. 
+
+# Credits
+Tung Nguyen, Mahmoud Gadalla, Lac Truong (Sophie Truong), Gyeha Lim
+
+
